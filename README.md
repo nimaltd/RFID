@@ -21,6 +21,15 @@ Please Do This ...
 #include "RFID.h"
 .
 .
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+  if(huart->Instance == USART2)
+  {
+    RFID_CallBack();    
+  }  
+}
+.
+.
 int main()
 {
   .
