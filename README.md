@@ -16,7 +16,7 @@ Please Do This ...
 <br />
 6) Put RFID_Loop() in your main or a task.
 <br />
-# Example:
+Example:
 
 ```
 #include "RFID.h"
